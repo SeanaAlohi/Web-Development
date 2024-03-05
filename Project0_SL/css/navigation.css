@@ -1,0 +1,51 @@
+.menu ul {
+    /* this .menu is applied to the unordered
+    list items, i.e. home, about, and artwork uls*/
+	list-style-type: none;
+	margin: 0;
+    padding: 10px;
+	padding-left: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.menu li {
+    /* this is applied to the lists themselves*/
+	border: 1px solid rgb(186,97,99,255);
+	margin: 5px;
+    border-radius: 15px; /* there may 
+    be a way to use descendant so you dont have to 
+    use border-radius twice */
+    /*change this to look like the type of buttons you want*/
+}
+
+.menu a{
+    /* this will be applied to those elements that are anchored?
+    anchor tag. i.e. the list items.*/
+    text-decoration: none;
+    /* this removes the underline
+    adding the padding to the anchor will do the same
+    if you had done it on the list items.*/
+    font-family: myFont;
+    font-size: 12px;
+    display: block;
+	padding: 10px;
+    border-radius: 15px;
+}
+
+.is-current {
+    /* this is a class
+    it is not attached to any html element. 
+    this is used to make the distinction bw
+    the current page and the others
+    
+    just changing the color styling*/
+    color: white;
+	background-color: rgb(186,97,99,255);
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(milk_light.otf);
+}
+

@@ -1,0 +1,62 @@
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1200px;
+	display: grid;
+	grid-column-gap: 20px; 
+}
+
+body div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.workpage img{
+	flex: 1 ;
+	width: 450px;
+	height: 400px;
+    padding: 5px;
+	object-fit: cover; 
+		/*this will respect the aspect ratio of the images*/
+}
+
+#masks {
+    flex: 0.5 ;
+	width: 400px;
+	height: 400px;
+    padding: 5px;
+	object-fit: cover; 
+}
+
+#p3 {
+    flex: 1 ;
+	width: 400px;
+	height: 700px;
+    padding: 5px;
+	object-fit: cover; 
+}
+
+#p1 {
+    flex: 1 ;
+	width: 400px;
+	height: 700px;
+    padding: 5px;
+	object-fit: cover; 
+}
+/* .workpage img :nth-child(2) {
+	flex: 3;
+} */
+
+@font-face {
+    font-family: myFont;
+    src: url(milk_bold.otf);
+}
+
+h1 {
+    font-family: myFont;
+    font-size: 75px;
+}

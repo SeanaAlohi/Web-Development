@@ -1,0 +1,46 @@
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+img{
+    max-width: 300px;
+    float: left;
+    margin-right: 15px;
+}
+
+
+@font-face {
+    font-family: myFont;
+    src: url(milk_bold.otf);
+}
+
+@font-face {
+    font-family: myFontLight;
+    src: url(Relevance.ttf);
+}
+
+h1 {
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 10px;
+    font-family: myFont;
+    font-size: 75px;
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 5px;
+    font-family: myFont;
+    font-size: 25px;
+}
+
+p {
+    padding: 0px;
+    padding-bottom: 30px;
+    margin: 0px;
+    font-family: myFontLight;
+    font-size: 15px;
+}
