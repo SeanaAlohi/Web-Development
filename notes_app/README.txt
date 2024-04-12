@@ -10,5 +10,3 @@ You can open the virtual environment in Terminal (will probably have to download
 Inside the terminal you are using, execute:
 	python3 main.py
 This should run and create the http request. 
-
-https://github.com/SeanaAlohi/Web-Development/assets/148152470/e366ac87-ffc0-426e-9c33-5cbc439e9bef
